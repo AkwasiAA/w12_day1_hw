@@ -28,7 +28,6 @@ public abstract class Stall implements IReviewed {
         return parkingSpot;
     }
 
-    @Override
     public int getRating() {
         return rating;
     }
