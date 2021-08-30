@@ -13,5 +13,15 @@ public class ThemePark {
         this.stalls = stalls;
     }
 
+    public ArrayList getAttractions() {
+        return attractions;
+    }
 
+    public ArrayList getStalls() {
+        return this.stalls;
+    }
+
+//    public ArrayList getReviewed(){
+//        return
+//    }
 }
