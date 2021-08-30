@@ -8,5 +8,10 @@ public class ThemePark {
     private ArrayList<Attraction> attractions;
     private ArrayList<Stall> stalls;
 
+    public ThemePark(ArrayList attractions, ArrayList stalls){
+        this.attractions = attractions;
+        this.stalls = stalls;
+    }
+
 
 }
